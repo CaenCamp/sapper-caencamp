@@ -1,46 +1,19 @@
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>CaenCamp</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<div class="container">
+	<h1>Qu’est-ce que les CaenCamp.s ?</h1>
+	<p>
+		Ce sont des moments de rencontre organisés sur Caen, par et pour toutes les personnes qui aiment ou trouvent un intérêt dans le code et la programmation.
+		Une rencontre régulière est organisée chaque dernier mardi du mois avec un sujet présenté par un speaker de la communauté, précédé par un lightning talk. Mais d'autres rencontres peuvent librement s'organiser, comme les Coding Caen Camp (CCC).
+	</p>
 
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
+	<p>
+		Les CaenCamp.s ne vivent que par l'investissement des membres de sa communauté et ne dépendent d'aucune chapelle ni d'aucune entreprise. Nous tenons cependant à remercier le Forum Digital d’avoir accueilli une majorité de nos rencontres, ainsi que HEY! coworking pour nous permettre l'organisation des CCC.
+	</p>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+	<p>
+		Sans forme d'organisation formelle, les CaenCamp.s existent pourtant depuis 2012.
+	</p>
+</div>
