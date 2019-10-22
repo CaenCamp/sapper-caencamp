@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "global.css";
+
+p { margin-top: 1.5em; }
+a { font-weight: bold; }

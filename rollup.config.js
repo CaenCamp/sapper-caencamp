@@ -6,6 +6,7 @@ import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
+import postcss from 'rollup-plugin-postcss'
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -23,6 +24,7 @@ export default {
 				'process.browser': true,
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
+			postcss({ extract: true }),
 			svelte({
 				dev,
 				hydratable: true,
